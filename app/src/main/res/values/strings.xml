@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CovidApp</string>
+    <string name="statistiques">Statistiques</string>
+    <string name="derniere_stat">Dernière Statistiques</string>
 </resources>
