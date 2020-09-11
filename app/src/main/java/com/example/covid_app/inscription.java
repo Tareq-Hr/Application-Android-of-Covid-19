@@ -13,4 +13,14 @@ public class inscription extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inscription);
     }
+
+    public void goToLogin(View view) {
+        Intent intent = new Intent(inscription.this, LoginActivity.class);
+        startActivity(intent);
+    }
+
+    public void Login(View view) {
+        Intent intent = new Intent(inscription.this, MainActivity.class);
+        startActivity(intent);
+    }
 }

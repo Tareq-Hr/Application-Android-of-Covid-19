@@ -49,22 +49,28 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(profile_intent);
                         return true;
                     case R.id.propreté:
-                        Toast.makeText(MainActivity.this, "Propreté",Toast.LENGTH_SHORT).show();break;
+                        Intent propreté_intent = new Intent(MainActivity.this, interfaces.class);
+                        startActivity(propreté_intent);
+                        return true;
                     case R.id.alimentation:
-                        Toast.makeText(MainActivity.this, "Alimentation",Toast.LENGTH_SHORT).show();break;
+                        Intent alimentation_intent = new Intent(MainActivity.this, interfaces.class);
+                        startActivity(alimentation_intent);
+                        return true;
                     case R.id.distraction:
-                        Toast.makeText(MainActivity.this, "Distraction",Toast.LENGTH_SHORT).show();break;
+                        Intent distraction_intent = new Intent(MainActivity.this, interfaces.class);
+                        startActivity(distraction_intent);
+                        return true;
                     case R.id.conseils:
-                        Toast.makeText(MainActivity.this, "Conseils",Toast.LENGTH_SHORT).show();break;
+                        Intent conseil_intent = new Intent(MainActivity.this, interfaces.class);
+                        startActivity(conseil_intent);
+                        return true;
                     case R.id.to_do_list:
-                        Toast.makeText(MainActivity.this, "TODO",Toast.LENGTH_SHORT).show();break;
+                        Intent todo_intent = new Intent(MainActivity.this, MainActivity.class);
+                        startActivity(todo_intent);
+                        return true;
                     default:
                         return MainActivity.super.onOptionsItemSelected(item);
                 }
-
-
-                return true;
-
             }
         });
 
