@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_user"
+        android:title="Profile"
+        android:visible="true" />
+    <item android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="Accueil"/>
+    <item
+        android:id="@+id/propreté"
+        android:icon="@drawable/ic_proprete"
+        android:title="Propreté" />
+    <item android:id="@+id/alimentation"
+        android:icon="@drawable/ic_alimentation"
+        android:title="Alimentation"/>
+    <item android:id="@+id/distraction"
+        android:icon="@drawable/ic_distraction"
+        android:title="Distraction"/>
+    <item android:id="@+id/conseils"
+        android:icon="@drawable/ic_conseil"
+        android:title="Conseils"/>
+    <item android:id="@+id/to_do_list"
+        android:icon="@drawable/ic_to_do"
+        android:title="To do liste"/>
+
+</menu>
