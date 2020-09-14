@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F0F2F5"
-    tools:context=".interfaces">
-
+    tools:context=".proprete">
     <View
         android:id="@+id/divider2"
         android:layout_width="315dp"
@@ -96,14 +94,14 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="78dp"
-                    android:src="@drawable/img_8664"></ImageView>
+                    android:src="@drawable/icons8_throat_spray_100"></ImageView>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="37dp"
                     android:gravity="center"
-                    android:text="Lire un documentaire"
-                    android:textColor="#986615">
+                    android:text="Stérilisez les plans  "
+                    android:textColor="#1C8AE8">
 
                 </TextView>
             </LinearLayout>
@@ -122,14 +120,14 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="78dp"
-                    android:src="@drawable/icons8_cooking_book_48"></ImageView>
+                    android:src="@drawable/icons8_wash_your_hands_100"></ImageView>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="37dp"
                     android:gravity="center"
-                    android:text="Preparer un repas"
-                    android:textColor="#986615">
+                    android:text="Lavez-vous fréquemment les mains "
+                    android:textColor="#1C8AE8">
 
                 </TextView>
             </LinearLayout>
@@ -149,14 +147,14 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="78dp"
-                    android:src="@drawable/img_866"></ImageView>
+                    android:src="@drawable/icons8_soap_48"></ImageView>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="37dp"
                     android:gravity="center"
-                    android:text="Pratiquer du sport à la maison"
-                    android:textColor="#986615">
+                    android:text="Nettoyez les sachets  d’achat "
+                    android:textColor="#1C8AE8">
 
                 </TextView>
             </LinearLayout>
@@ -175,14 +173,15 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="78dp"
-                    android:src="@drawable/img_86"></ImageView>
+                    android:src="@drawable/img_8664"></ImageView>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="37dp"
                     android:gravity="center"
-                    android:text="Regarder un filme"
-                    android:textColor="#986615">
+                    android:text="Lire un documentaire"
+                    android:textColor="#1C8AE8">
+
                 </TextView>
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>

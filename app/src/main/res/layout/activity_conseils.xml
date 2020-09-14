@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F0F2F5"
-    tools:context=".interfaces">
-
+    tools:context=".conseils">
     <View
         android:id="@+id/divider2"
         android:layout_width="315dp"
@@ -15,18 +13,18 @@
         android:background="?android:attr/listDivider"
         android:foreground="#1C8AE8"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
-        android:layout_width="383dp"
-        android:layout_height="61dp"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
         android:layout_marginTop="4dp"
         android:background="@drawable/search_style"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.437"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -57,18 +55,17 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="120dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="4dp"
         android:text="Distraction"
         android:textColor="#BA243334"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
-
     <ScrollView
         android:layout_width="373dp"
         android:layout_height="472dp"
@@ -96,14 +93,14 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="78dp"
-                    android:src="@drawable/img_8664"></ImageView>
+                    android:src="@drawable/icons8_coughing_100"></ImageView>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="37dp"
                     android:gravity="center"
-                    android:text="Lire un documentaire"
-                    android:textColor="#986615">
+                    android:text="Tenez-vous à distance de personnes qui tousse ou éternue "
+                    android:textColor="#CD111212">
 
                 </TextView>
             </LinearLayout>
@@ -122,14 +119,14 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="78dp"
-                    android:src="@drawable/icons8_cooking_book_48"></ImageView>
+                    android:src="@drawable/icons8_fievre_100"></ImageView>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="37dp"
                     android:gravity="center"
-                    android:text="Preparer un repas"
-                    android:textColor="#986615">
+                    android:text="Consultez le médecin si vous avez de la fièvre "
+                    android:textColor="#CB111212">
 
                 </TextView>
             </LinearLayout>
@@ -149,14 +146,14 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="78dp"
-                    android:src="@drawable/img_866"></ImageView>
+                    android:src="@drawable/icons8_protection_mask_100"></ImageView>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="37dp"
                     android:gravity="center"
-                    android:text="Pratiquer du sport à la maison"
-                    android:textColor="#986615">
+                    android:text="Portez le masque "
+                    android:textColor="#CD111212">
 
                 </TextView>
             </LinearLayout>
@@ -175,14 +172,15 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="78dp"
-                    android:src="@drawable/img_86"></ImageView>
+                    android:src="@drawable/icons8_visage_mort_100"></ImageView>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="37dp"
                     android:gravity="center"
-                    android:text="Regarder un filme"
-                    android:textColor="#986615">
+                    android:text="Évitez de vous toucher les yeux, le nez ou la bouche"
+                    android:textColor="#CD111212">
+
                 </TextView>
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
