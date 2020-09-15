@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light">
         <activity android:name=".interfaces"></activity>
+        <activity android:name=".conseils"></activity>
+        <activity android:name=".alimentation"></activity>
+        <activity android:name=".proprete"></activity>
         <activity android:name=".LoginActivity"></activity>
         <activity android:name=".ProfileActivity"></activity>
         <activity android:name=".inscription">

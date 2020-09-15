@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ConseilsActivity">
+    tools:context=".conseils">
+
     <View
         android:id="@+id/divider2"
         android:layout_width="315dp"
@@ -18,23 +19,24 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
         android:layout_marginLeft="28dp"
-        android:layout_marginTop="4dp"
-        android:text="Distraction"
+        android:layout_marginTop="32dp"
+        android:text="Conseils"
         android:textColor="#BA243334"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ScrollView
         android:layout_width="373dp"
-        android:layout_height="472dp"
+        android:layout_height="524dp"
+        android:layout_marginBottom="84dp"
         android:fillViewport="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
