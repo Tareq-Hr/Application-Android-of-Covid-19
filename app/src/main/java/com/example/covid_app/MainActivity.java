@@ -49,11 +49,11 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(profile_intent);
                         return true;
                     case R.id.propreté:
-                        Intent propreté_intent = new Intent(MainActivity.this, interfaces.class);
+                        Intent propreté_intent = new Intent(MainActivity.this, PropreteActivity.class);
                         startActivity(propreté_intent);
                         return true;
                     case R.id.alimentation:
-                        Intent alimentation_intent = new Intent(MainActivity.this, interfaces.class);
+                        Intent alimentation_intent = new Intent(MainActivity.this, AlimentationActivity.class);
                         startActivity(alimentation_intent);
                         return true;
                     case R.id.distraction:
@@ -61,12 +61,16 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(distraction_intent);
                         return true;
                     case R.id.conseils:
-                        Intent conseil_intent = new Intent(MainActivity.this, interfaces.class);
+                        Intent conseil_intent = new Intent(MainActivity.this, ConseilsActivity.class);
                         startActivity(conseil_intent);
                         return true;
                     case R.id.to_do_list:
                         Intent todo_intent = new Intent(MainActivity.this, MainActivity.class);
                         startActivity(todo_intent);
+                        return true;
+                    case R.id.logout:
+                        Intent logout_intent = new Intent(MainActivity.this, LoginActivity.class);
+                        startActivity(logout_intent);
                         return true;
                     default:
                         return MainActivity.super.onOptionsItemSelected(item);

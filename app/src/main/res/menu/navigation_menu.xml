@@ -26,5 +26,9 @@
     <item android:id="@+id/to_do_list"
         android:icon="@drawable/ic_to_do"
         android:title="To do liste"/>
+    <item
+        android:id="@+id/logout"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="Déconnexion"></item>
 
 </menu>
