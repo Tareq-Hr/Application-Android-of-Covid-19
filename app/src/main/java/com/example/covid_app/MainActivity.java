@@ -7,12 +7,16 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Environment;
+import android.provider.ContactsContract;
 import android.view.View;
 
 import com.google.android.material.navigation.NavigationView;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.TextView;
 import android.widget.Toast;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,10 +24,14 @@ public class MainActivity extends AppCompatActivity {
     private ActionBarDrawerToggle t;
     private NavigationView nv;
 
+    private TextView txt;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        txt = findViewById(R.id.textView);
 
         dl = (DrawerLayout)findViewById(R.id.activity_main);
         t = new ActionBarDrawerToggle(this, dl,R.string.Open, R.string.Close);
@@ -65,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(conseil_intent);
                         return true;
                     case R.id.to_do_list:
-                        Intent todo_intent = new Intent(MainActivity.this, MainActivity.class);
+                        Intent todo_intent = new Intent(MainActivity.this, ToDoList.class);
                         startActivity(todo_intent);
                         return true;
                     case R.id.logout:
